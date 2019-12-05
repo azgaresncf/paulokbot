@@ -1,0 +1,21 @@
+{
+   "author": "PAULOK et KIYU",
+   "content_scripts": [ {
+      "js": [ "traitement.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "permissions": [ "activeTab" ],
+      "run_at": "document_end"
+   } ],
+   "description": "L'extension des fdp (fan de paulok)",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcRm4cgvaJgmpN4t4sgrONVgLAgdoH74MQMGYuxl0smYtmQfQT17JUtTYFDCosEj+9+O22yJvNRW0RSZwr5IK5zaGvd/LHz6fDVR4INY3nuThWnsFYD5bD/Ow77Np+4msTGTNACxJXSabeXMgbXstXhTxQccm5mlyB40qL3gBdekOAEEnp4LI1CoLTPqI/ZeHrnDAdbg6KA64Evp3Okz2loA+/CAYyOQjjwfXscni1tK+Rpc7zkATLT1xdQY28l54N6OTDyNhM6Z+8GzwthqmN/YbhmKJfm0+fDMRbSlqF7Ns5kped7iLfKA3X52vqV3+QstF7IwKEI9NQbVYtJ+SQIDAQAB",
+   "manifest_version": 2,
+   "name": "L'extension PAULOK",
+   "short_name": "PLK",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}
